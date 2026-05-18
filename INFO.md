@@ -1,1 +1,5 @@
-Ce repository sert principalement à gérer le support du module dolibarr "Bons de Transfert Entrepôt", à notifier les mises à jours de version et à rendre publique le ChangeLog.
+17/05/2026
+Ce repository sert principalement : 
+- à gérer le support du module dolibarr "Bons de Transfert Entrepôt"
+- à notifier les mises à jours de version
+- à rendre public le ChangeLog
