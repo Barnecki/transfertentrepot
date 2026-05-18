@@ -1,6 +1,6 @@
 # ChangeLog — TransfertEntrepot
 
-## [1.0.1] — 2026-05-17
+## [1.0.1] — 2026-05-18
 
 ### Modifications
 - Changement de l ID du module : 500110 → 250000
