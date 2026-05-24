@@ -2,8 +2,8 @@
 
 **Editeur :** [BARNECKI SPIRITS](https://github.com/Barnecki)  
 **Depot :** [https://github.com/Barnecki/transfertentrepot](https://github.com/Barnecki/transfertentrepot)  
-**Version :** 1.0.0  
-**Compatibilite :** Dolibarr 14+  
+**Version :** 1.0.1  
+**Compatibilite :** Dolibarr 21+  
 **Licence :** GPL v3
 
 ---
