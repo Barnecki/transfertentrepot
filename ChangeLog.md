@@ -1,5 +1,15 @@
 # ChangeLog — TransfertEntrepot
 
+## [1.0.4] — 2026-06-25
+
+### Corrections
+- `pdf_bon_transfert.modules.php` : blocs de signature groupes sur la meme page
+  - `SetAutoPageBreak(false)` desactive AVANT l ecriture des signatures pour empecher toute coupure automatique TCPDF
+  - Test de place corrige : `$nexY + 38 > page_hauteur - footerZone` (au lieu de `yAvailable < 38`)
+  - Si pas assez de place : `_pagefoot()` sur la page courante + `AddPage()` + `SetAutoPageBreak(false)` maintenu
+
+---
+
 ## [1.0.2] — 2026-06-25
 
 ### Corrections
