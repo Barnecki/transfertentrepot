@@ -1,5 +1,15 @@
 # ChangeLog — TransfertEntrepot
 
+## [1.0.2] — 2026-06-25
+
+### Corrections
+- `pdf_bon_transfert.modules.php` : les blocs de signature ne sont plus decoupes sur plusieurs pages quand la liste de mouvements est longue
+  - Avant d ecrire les signatures, on calcule l espace disponible restant sur la page
+  - Si la hauteur disponible < 38mm (hauteur minimale des blocs signature), une nouvelle page est creee
+  - `_pagefoot()` est appele avant le saut de page pour avoir le pied de page sur chaque page
+
+---
+
 ## [1.0.1] — 2026-05-17
 
 ### Modifications
